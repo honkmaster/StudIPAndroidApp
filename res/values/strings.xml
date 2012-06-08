@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StudIPAppActivity!</string>
+    <string name="app_name">StudIPApp</string>
+    <string name="slide_button_text">&gt;</string>
+    <string name="news_titel">News</string>
+
+</resources>

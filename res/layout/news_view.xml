@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/inner_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_android" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#bb000000"
+        android:paddingLeft="2dip"
+        android:paddingRight="2dip" >
+
+        <Button
+            android:id="@+id/slide_button"
+            style="@android:style/Widget.Button.Small"
+            android:layout_width="35dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:text="@string/slide_button_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="@string/news_titel"
+            android:textColor="#ffffff"
+            android:textSize="19sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/news_placeholder"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="#777777" />
+    
+</RelativeLayout>
